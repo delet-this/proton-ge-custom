@@ -255,6 +255,9 @@ apply_all_in_dir() {
     echo "WINE: -GAME FIXES- add le mans ultimate patches"
     apply_patch "../patches/game-patches/lemansultimate-gameinput.patch"
 
+    echo "WINE: -GAME FIXES- add akibauu bytestream read hack"
+    apply_patch "../patches/game-patches/akibauu-bytestream-read-hack.patch"
+
 ### END GAME PATCH SECTION ###
 
 ### (2-5) WINE HOTFIX/BACKPORT SECTION ###
